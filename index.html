@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CHANEL | Paris</title>
+<link rel="stylesheet" type="text/css" href="css/estilos.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="img/favicon.png">
+<script src="https://kit.fontawesome.com/42534a9b0c.js" crossorigin="anonymous"></script>
+<script src="carrusel_b.js"></script>
+<script>
+  function principal() { // onload body
+    new CarruselB({
+      id: "carrusel_b",
+      waiting: 7000, // milliseconds (false per desactivar)
+    });
+  }
+</script>
+</head>
+<body onload="principal()">
+<div id="contenedor">
+<div id="nav">
+<<header class="site-header">
+        <div id="bar1" class="bar1">
+            <div class="mobile-menu menu-movil">
+
+            </div>
+            <ul class="navegacion-principal">
+
+            <img src="img/favicon.png" class="logo1">
+
+                <li> <a href="index.html" class="bgBlack">Inicio</a></li>
+
+				<li> <a href="#conocenos" class="bgBlack">Conocenos</a></li>
+
+                <li> <a href="#servicios" class="bgBlack">Servicios</a></li>
+
+                <li> <a href="#carrusel_b" class="bgBlack">Galeria</a></li>
+
+				<li> <a href="#contactos" class="bgBlack">Contacto</a></li>
+
+				<li> <a href="#ubicacion" class="bgBlack">Ubicacion</a></li>
+
+
+
+
+</div>
+</div>
+<div id="conocenos">
+<div class="conocenos">
+</br>
+</br>
+</br>
+<h2 align="center"> CONOCENOS </h2>
+<p align="justify" class=texto>Chanel S. A., o simplemente Chanel, es una casa de modas francesa, fundada en Paris por la famosa
+Coco Chanel, en 1910. La marca del izan se especializa en crear y confeccionar articulos de lujo, como
+indumentaria de alta costura, lista para usar, bolsos, perfumes y cosmeticos, entre otros.
+
+De acuerdo a la revista Forbes, la empresa privada House of Chanel pertenece a Alain Wertheimer y Gerard Wertheimer,
+quienes son los nietos del anterior socio de Chanel, Pierre Wertheimer. En la actualidad, Chanel tiene boutiques
+alrededor del mundo en exclusivos distritos comerciales y realiza sus desfiles en las mas importantes capitales
+de la moda. Los articulos Chanel llevan el logotipo de la doble C. La marca Chanel se ha convertido en uno de los
+nombres mas reconocidos dentro de la moda de alta costura. Coco Chanel vivia en el Hotel Ritz Paris y su suite ahora
+se llama "Suite Coco Chanel"</p>
+<img src="img/favicon.png" class="logo">
+<p align="justify" class=texto2>Chanel es una empresa de privada cuyos valores se basan en crear las condiciones adecuadas para que las personas
+tengan el mejor rendimiento y se sientan realizados y seguros en su trabajo.
+
+Nos preocupamos profundamente por nuestros empleados y nos esforzamos por crear un entorno seguro, que valore lo humano
+y la singularidad de cada uno, de forma que todos se sientan libres para expresar su personalidad tanto en su vida personal
+como profesional.
+
+Ofrecemos un ambiente de trabajo unico, en el que animamos a comprender mejor la marca, el negocio y sus motivaciones, para
+que juntos podamos descubrir las posibilidades de crecimiento.</p>
+</div>
+</div>
+<div id="cabecera" style="background-image: url(img/foto.jpg);">
+</div>
+<div id="servicios" style="background-image: url(img/fondonegro.jpg);">
+<h2> NUESTROS PRODUCTOS </h2>
+<img src="img/chanel17.png" alt="Moda" class="cartera">
+<img src="img/chanel15.png" alt="Perfumeria" class="perfume">
+<img src="img/redonda.png" alt="Maquillaje & Skin care" class="maquillaje">
+<p class="p">Moda</p>
+<p class="p">Perfumeria</p>
+<p class="p">Makeup & Skin care</p>
+</div>
+<div class="galeria">
+<h2 align="center"> GALERIA</h2>
+<div id="carrusel_b">
+    <ul class="photos_b">
+        <li><img id="foto1" src="img/chanel1.jpg" width="800" height="600"/></li>
+        <li><img id="foto2" src="img/chanel2.jpg" width="800" height="600"/></li>
+        <li><img id="foto3" src="img/chanel3.jpg" width="800" height="600"/></li>
+        <li><img id="foto4" src="img/chanel9.jpg" width="800" height="600"/></li>
+        <li><img id="foto5" src="img/chanel5.jpg" width="800" height="600"/></li>
+        <li><img id="foto6" src="img/chanel6.jpg" width="800" height="600"/></li>
+        <li><img id="foto7" src="img/chanel7.jpg" width="800" height="600"/></li>
+    </ul>
+    <ul class="links_b">
+        <li><a href="#foto1">1</a></li>
+        <li><a href="#foto2">2</a></li>
+        <li><a href="#foto3">3</a></li>
+        <li><a href="#foto4">4</a></li>
+        <li><a href="#foto5">5</a></li>
+        <li><a href="#foto6">6</a></li>
+        <li><a href="#foto7">7</a></li>
+    </ul>
+</div>
+</div>
+<div id="contactos" style="background-image:url(img/mapacontacto.png);">
+</div>
+<div id="transparente">
+<h2>CONTACTANOS</h2>
+<form action="#" method="post" name="contactos">
+<section style="width:50%;float:left">
+<input class="input" type="text" name="nombre" placeholder="Escribe tu nombre..."><br>
+<input class="input" type="email" name="correo" placeholder="Escribe tu correo..."><br>
+<input class="input" type="text" name="telefono" placeholder="Escribe tu numero de
+telefono...">
+</section>
+<aside style="width:50%;float:left">
+<textarea class="textarea" rows="10" name="mensaje" placeholder="Escribe tu mensaje
+aqui..."></textarea>
+</aside>
+<aside style="width:100%;float:left;align:center;position:relative; display:flex;
+ justify-content:center;">
+<input class="button" type="submit" value="Enviar Mensaje"
+style="width:20%;height:40px;">
+</aside>
+</form>
+</div>
+<div id="ubicacion">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.4344634374283!2d2.321094715674749!3d48.86899367928849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e32d7420ca7%3A0x20526cffbe046c7b!2sCHANEL%20PARIS%20ROYALE!5e0!3m2!1ses-419!2sve!4v1592861493764!5m2!1ses-419!2sve" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+<div id="pie"><div id="izq">Copyrigth 2020. Todos los derechos reservados</div> <div
+id="der">COCO CHANEL</div>
+</div>
+</div>
+</body>
+<script src="menu.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+</html>

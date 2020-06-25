@@ -1,0 +1,521 @@
+html, body{
+padding: 0 0 0 0;
+margin: 0 0 0 0;
+scroll-behavior: smooth;
+background: #fce4ec;
+}
+#contenedor {
+width: 100%;
+height: 100%;
+margin: 0 0 0 0;
+}
+#nav{
+width: 100%;
+height: 50px;
+background-color:#000;
+color:#fff;
+line-height: 50px;
+ position:fixed;
+ top:0
+}
+.logo1{
+width:100px;
+margin-right:100px;
+}
+.conocenos{
+width:100%;
+margin-top:100px;
+height:400px;
+background-color: #fce4ec;
+}
+.texto{
+font-size: 20px;
+margin-left:80px;
+margin-right:80px;
+text-align: justify-all;
+}
+.texto2{
+font-size: 20px;
+margin-left:80px;
+margin-right:80px;
+margin-bottom:200px;
+text-align: justify-all;
+}
+.logo{
+margin-left:600px;
+width:150px;
+}
+.bar1 {
+    background-color: #000000;
+    position: fixed;
+    width: 100%;
+    height:100px;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.navegacion-principal {
+    display: none;
+}
+.site-header {
+    background-image: url('img/fondo1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    top: 0;
+    width: 100%;
+    height: 38rem;
+}
+
+.text-header {
+    color: #FFFFFF;
+    text-align: center;
+    display: block;
+    margin-left: -14%;
+    font-family: 'Raleway', sans-serif;
+    width: 105%; 
+    padding-top: 12rem;
+}
+
+.mobile-menu img {
+    width: 46px;
+}
+
+    .mobile-menu img {
+        display: none;
+    }
+
+    .bar1 ul {
+        padding-left: 30%;
+        margin: 0px;
+        padding: 0px;
+        display: block;
+    }
+    .bar1 ul {
+        padding-left: 30%;
+        margin: 0px;
+        padding: 0px;
+        display: flex!important;
+        justify-content: flex-end;
+    }
+
+
+.bar1 ul li {
+    display: block;
+    height:20px;
+    width: 150px;
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    margin: 5px;
+    padding: 1px;
+    
+}
+
+.bar1 ul li a {
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom:200px;
+    margin-right:15px;
+}
+
+.bar1 ul li a:hover {
+    transform: scale(1.3);
+    box-shadow: 8px 4px 20px #FFFFFF;
+    background: #000000;
+}
+
+.bgBlack {
+    background-color: #000000;
+}
+.navegacion a {
+    color: black;
+    text-transform: uppercase;
+    display: block;
+    margin: 0rem 0rem 0rem 2rem;
+    font-size: 1.8rem;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.navegacion a:hover {
+    color: darkgray;
+    cursor: hand;
+}
+#cabecera {
+height: 350px;
+width: 100%;
+background-size: 100% 100%;
+margin-bottom:-20px;
+}
+#cabecera img{
+height: 180px;
+width: 150px;
+margin-top: 15px;
+margin-left: 25px;
+}
+#contactos{
+text-align:center;
+height: 250px;
+width: 100%;
+background-size: 100% 100%;
+margin-top:300px;
+z-index: 0;
+color:#000;
+}
+#transparente h2{
+color:#fff;
+text-align: center;
+margin-top: 60px;
+}
+
+.input{
+width: 500px;
+height: 30px;
+margin-bottom: 20px;
+color:#000000;
+float: right;
+margin-right: 20px;
+}
+.textarea{
+width: 500px;
+color:#000000;
+float: none;
+}
+.button{
+width: 500px;
+color:#000000;
+float: none;
+}
+#transparente{
+ z-index:1;
+ width:100%;
+ height:450px;
+ background-color:#000;
+ border:1px solid black;
+ opacity:0.3;
+ filter:alpha(opacity=90);
+ position:relative;
+ margin-top:-450px;
+}
+#servicios{
+height: 300px;
+width: 100%;
+background-size: 100% 100%;
+text-align:center;
+color:#fff;
+padding-top:3%;
+}
+.perfume{
+width: 200px;
+height: 100px;
+display:block;
+float:left;
+padding-top:3%;
+padding-left:35%;
+padding-right: 0%;
+}
+.maquillaje{
+width: 500px;
+display:block;
+float:left;
+padding-top:3%;
+padding-left:30%;
+padding-right: 0%;
+}
+.cartera{
+width: 100px;
+display:block;
+float:left;
+padding-top:3%;
+padding-left:5%;
+padding-right: 0%;
+}
+.p{
+width: 20%;
+text-align:center;
+padding-top:0%;
+padding-left:8%;
+padding-right: 4%;
+display:block;
+float:left;
+}
+.galeria{
+background: #fce4ec;
+height:600px;
+text-aling:center;
+}
+#mapa{
+height: 350px;
+width: 100%;
+background-size: 100% 100%;
+}
+#pie{
+height: 50px;
+width: 100%;
+color:#fff;
+line-height: 50px;
+text-align:center;
+}
+#izq{
+height: 100%;
+width: 49.2%;
+background-color:#000;
+color:#fff;
+text-align:left;
+padding-left: 10px;
+float: left;
+}
+
+#der{
+height: 100%;
+width: 49.1%;
+background-color:#000;
+color:#fff;
+text-align:right;
+padding-right: 10px;
+float: left;
+}
+
+
+/* carrusel_b.css */
+#carrusel_b {
+  position:relative;
+  border:4px solid #000;
+}
+
+#carrusel_b,
+#carrusel_b ul.photos_b {
+  width:500px; 
+  height:400px;
+  margin-left: 420px;
+  margin-top: 80px;
+  margin-bottom: 300px;
+}
+
+#carrusel_b ul.links_b,
+#carrusel_b ul.photos_b {
+  list-style-type:none; margin:0; padding:0; 
+}
+
+
+#carrusel_b ul.links_b {
+  position:absolute; right:0; top:0; 
+  background-color:rgba(0,0,0,0.1); 
+}
+#carrusel_b ul.links_b li {
+  display:inline; 
+}
+
+#carrusel_b ul.links_b a {
+  font-family:sans-serif;
+  text-decoration:none;
+  color:#fff; text-shadow:0 0 3px #000; 
+  display:inline-block;
+  padding:0.5em 1em;
+}
+#carrusel_b ul.links_b a:hover {
+  text-decoration:underline;
+}
+
+#carrusel_b ul.links_b a.current {
+  background-color:rgba(0,0,0,0.2); 
+}
+
+/* Fotos */
+#carrusel_b ul.photos_b,
+#carrusel_b ul.photos_b img {
+  position:absolute; left:10; top:10;
+  width:500px; 
+  height:400px;
+}
+
+
+#carrusel_b ul.photos_b img {
+  opacity:0; /* transparent */
+}
+
+#carrusel_b ul.photos_b img:target {
+  opacity:1; /* opac */
+}
+
+/* Animacion */
+#carrusel_b ul.photos_b img,
+#carrusel_b ul.photos_b img:target {
+  transition-property:opacity;
+  transition-duration:2s;
+  -moz-transition-property:opacity;
+  -moz-transition-duration:2s;
+  -moz-transition-timing-function:ease-out;
+  -webkit-transition-property:opacity;
+  -webkit-transition-duration:2s;
+  -o-transition-property:opacity;
+  -o-transition-duration:2s;
+}
+#carrusel_b ul.links_b a,
+#carrusel_b ul.links_b a.current {
+  transition-property:background-color;
+  transition-duration:1s;
+  -moz-transition-property:background-color;
+  -moz-transition-duration:1s;
+  -moz-transition-timing-function:ease-out;
+  -webkit-transition-property:background-color;
+  -webkit-transition-duration:1s;
+  -o-transition-property:background-color;
+  -o-transition-duration:1s;
+}
+.cartera{
+ width:150px;
+ height:150px;
+ padding-left:200px;
+ padding-right:80px;
+}
+
+.perfume{
+ width:150px;
+ height:150px;
+ padding-left:180px;
+ padding-right: 30px;
+}
+
+.maquillaje{
+ width:150px;
+ height:150px;
+ padding-right:0px;
+ padding-left:180px;
+ }
+
+
+@media (max-width:768px){
+
+
+    ul{
+        width:auto;
+        display: block;
+        margin:auto;
+    }
+
+    ul li{
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+    
+    site-header{
+    display: block;
+    margin: auto;
+    height: auto;
+    }
+    
+   mobile-menu menu-movil{
+    display: block;
+    width:auto;
+    margin: auto;
+    }
+    
+    servicios{
+    width:auto;
+    heigth: auto;
+    display:flex;
+    flex-direction: column;
+    }
+    
+    conocenos{
+        width: auto;
+        display:flex;
+        flex-direction: column;
+    }
+    
+    cartera{
+        width: auto;
+        display:flex;
+        flex-direction: column;
+    }
+    
+    perfume{
+        width: auto;
+        display:flex;
+        flex-direction: column;
+    }
+    
+    maquillaje{
+        width: auto;
+        display:flex;
+        flex-direction: column;
+    }
+    
+    pie{
+    	width:auto;
+        height: auto
+        display:flex;
+        flex-direction: column;
+        margin:auto;
+    }
+    
+    der{
+    	width:auto;
+    	margin:auto;
+        height: auto
+        display:flex;
+        flex-direction: column;
+    }
+    
+    izq{
+    	margin:auto;
+        display:flex;
+        flex-direction: column;
+    }
+    
+    contendor{
+    width:auto;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    }
+   
+   nav{
+       float:none;
+       width:100%;
+       display: none;
+       margin:auto;
+    }
+    
+    logo1{
+    float:none;
+    width:auto;
+    display: none;
+    margin:auto;
+    }
+    
+    carrusel_b{
+    width:auto;
+        margin:auto;
+        display:flex;
+    flex-direction: column;
+    }
+    
+    photos_b{
+    width:auto;
+        margin:auto;
+        display:flex;
+    flex-direction: column;
+    }
+    
+    texto2{
+    width:auto;
+        margin:auto;
+        display:flex;
+    flex-direction: column;
+    }
+    
+    html, body{
+    width:100%;
+        margin:auto;
+        display:flex;
+    }
+}
